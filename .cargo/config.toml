@@ -1,0 +1,6 @@
+[build]
+rustflags = [
+    "-C", "lto",
+    "-C", "embed-bitcode=yes",
+    "-Zdylib-lto"
+]
